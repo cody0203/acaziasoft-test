@@ -1,0 +1,19 @@
+.section-button {
+  font-size: 30px;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.section-button.active {
+  position: relative;
+  color: #82ae52;
+}
+
+.section-button.active::before {
+  content: "";
+  position: absolute;
+  border-bottom: 2px solid #82ae52;
+  width: 100%;
+  top: -5px;
+  left: 0;
+}

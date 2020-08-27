@@ -1,0 +1,15 @@
+.user-information {
+  margin: 0 10px;
+}
+
+.user-information--label {
+  font-size: 14px;
+  color: #8e8e8e;
+}
+
+.user-information--information {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 5px;
+  text-transform: capitalize;
+}
